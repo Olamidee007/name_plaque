@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
+
     <title>Name Plaque Application</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <div class="wrapper">
-      <h1>Name Plaque Application</h1>
+      <div class="wrapper">
+        <h1>Name Plaque Application</h1>
 
-      <p>Add any name of your choice and we will show you how much it costs.Each letter is $5</p>
+        <p>Add any name of your choice and we will show you how much it will cost. (Each letter is $5)</p>
 
-      <div class="form"
-       <div class="field-container">
-         <input class="field-input" id="guessField" name="inputName" type="text" placeholder=" ">
-         <label class="field-placeholder" for="inputName">Enter a guess:</label>
-       </div>
+        <div class="form">
+          <div class="field-container">
+            <input class="field-input" id="guessField" name="inputName" type="text" placeholder=" ">
+            <label class="field-placeholder" for="inputName">Enter a guess:</label>
+          </div>
+
+        </div>
 
         <div class="plaque">
           <div class="preview">
@@ -28,7 +31,9 @@
             <p class="plaque-prev">Your Name</p>
 
           </div>
+
           <div class="price">
+            <div class="">
               <div class="price-tag">Total: <span id="plaquePrice">$0</span></div>
               <input type="submit" value="Buy Now" class="buy-submit">
             </div>
@@ -37,14 +42,18 @@
 
         </div>
 
-        </div>
+
     </div>
-    <a href="https://github.com/Olamidee007" target="_blank">
-      <div class="from-miday">
+    <a href="https://instincthub.com/" target="_blank">
+      <div class="from-instincthub">
         <h3>from</h3>
-        <img src="https://telegra.ph/file/6f60b64c705a998546930.png" alt="" srcset="">
+        <img src="https://raw.githubusercontent.com/instincthub/images/main/logo/instincthub-logo-white.svg" alt="" srcset="">
       </div>
     </a>
+
+
+    <script src="script.js" charset="utf-8"></script>
+
 
   </body>
 </html>
